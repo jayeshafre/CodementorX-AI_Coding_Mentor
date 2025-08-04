@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Django-specific
+*.log
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Migrations (optional – comment if you want to track them)
+*/migrations/*
+!*/migrations/__init__.py
+
+# JWT / Auth
+*.jwt
+jwt_secret.key
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# OS files
+.DS_Store
+Thumbs.db
