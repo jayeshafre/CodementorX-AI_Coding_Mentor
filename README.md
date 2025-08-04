@@ -97,12 +97,6 @@ CodementorX is an AI-powered coding assistant that helps you plan, build, debug,
    EMAIL_HOST_PASSWORD=your_app-specific_password_here
    
    ```
-   
-   Create `.env` file in `/my-frontend`:
-   ```env
-   VITE_API_URL=http://localhost:8000
-   VITE_WS_URL=ws://localhost:8000
-   ```
 
 6. **Database Setup:**
    ```bash
@@ -222,8 +216,8 @@ CODEMENTORX/
 
 **Jayesh Afre**
 
-* 🌐 GitHub: github.com/jayeshafre
-* 💼 LinkedIn: linkedin.com/in/jayesh-afre
+* 🌐 GitHub: https://github.com/jayeshafre
+* 💼 LinkedIn: www.linkedin.com/in/jayesh-afre
 * 📧 Email: codergeek@gmail.com
 
 
