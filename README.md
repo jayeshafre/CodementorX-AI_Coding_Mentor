@@ -222,9 +222,9 @@ CODEMENTORX/
 
 **Jayesh Afre**
 
-* 🌐 GitHub: [@jayeshafre](https://github.com/jayeshafre)
-* 💼 LinkedIn: [Connect with me](https://linkedin.com/in/jayesh-afre)
-* 📧 Email: jayesh.afre@example.com
+* 🌐 GitHub: github.com/jayeshafre
+* 💼 LinkedIn: linkedin.com/in/jayesh-afre
+* 📧 Email: codergeek@gmail.com
 
 
 **⭐ If CodementorX helped you code better, please give us a star! It means the world to us! 🌟**
