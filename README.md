@@ -1,5 +1,9 @@
 # 🤖 CodementorX-AI Coding Mentor
 
+## 🖼️ Screenshots
+<img width="1363" height="596" alt="Screenshot_2025-08-04_191357 1" src="https://github.com/user-attachments/assets/9a0349f9-6ee9-40d2-9c88-311c9041b4e9" />
+<img width="1359" height="596" alt="Screenshot_2025-08-04_191510 1" src="https://github.com/user-attachments/assets/3122ae42-3939-4b6d-941e-29a1080301bb" />
+
 ## 🎯 Project Overview
 
 CodementorX is an AI-powered coding assistant that helps you plan, build, debug, and review code faster. With an intuitive chat UI, it provides expert-level guidance for full-stack development in real time.
@@ -62,22 +66,36 @@ CodementorX is an AI-powered coding assistant that helps you plan, build, debug,
    # Install dependencies
    pip install -r requirements.txt
    ```
-
-3. **Frontend Setup (React + Vite):**
+3. **Backend Setup (Django):**
+   ```bash
+   cd auth
+   
+   # Create virtual environment
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   
+   # Install dependencies
+   pip install -r requirements.txt
+   ```
+   
+4. **Frontend Setup (React + Vite):**
    ```bash
    cd my-frontend
    npm install
    ```
 
-4. **Environment Setup:**
+5. **Environment Setup:**
    
    Create `.env` file in `/backend`:
    ```env
-   DEEPSEEK_API_KEY=your_deepseek_api_key_here
+   OPENROUTER_API_KEY=your_openrouter_api_key_here
    DATABASE_URL=postgresql://user:password@localhost:5432/codementorx
    SECRET_KEY=your_secret_key_here
    DEBUG=True
    CORS_ORIGINS=http://localhost:5173
+   EMAIL_HOST_USER=your_email_here
+   EMAIL_HOST_PASSWORD=your_app-specific_password_here
+   
    ```
    
    Create `.env` file in `/my-frontend`:
@@ -86,29 +104,31 @@ CodementorX is an AI-powered coding assistant that helps you plan, build, debug,
    VITE_WS_URL=ws://localhost:8000
    ```
 
-5. **Database Setup:**
+6. **Database Setup:**
    ```bash
-   cd backend
+   cd auth
    
-   # Run FastAPI migrations
-   alembic upgrade head
-   
-   # Or Django migrations (if using Django models)
+   # Or Django migrations 
+   python manage.py makemigrations
    python manage.py migrate
    ```
 
-6. **Start the application:**
+7. **Start the application:**
    ```bash
    # Start FastAPI backend
    cd backend
    uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+   # Start Django backend
+   cd auth
+   python manage.py runserver 8001
    
    # Start React frontend (in new terminal)
    cd my-frontend
    npm run dev
    ```
 
-7. **Access the app:**
+8. **Access the app:**
    - Frontend: `http://localhost:5173`
    - FastAPI Backend: `http://localhost:8000`
    - API Docs: `http://localhost:8000/docs`
@@ -205,10 +225,6 @@ CODEMENTORX/
 * 🌐 GitHub: [@jayeshafre](https://github.com/jayeshafre)
 * 💼 LinkedIn: [Connect with me](https://linkedin.com/in/jayesh-afre)
 * 📧 Email: jayesh.afre@example.com
-
-##🖼️ Screenshots
-<img width="1359" height="596" alt="Screenshot_2025-08-04_191510 1" src="https://github.com/user-attachments/assets/f5817830-0068-4ad6-af6e-a0c904008545" />
-<img width="1363" height="596" alt="Screenshot_2025-08-04_191357 1" src="https://github.com/user-attachments/assets/86b8ab5c-c0ed-44a6-bdda-15c0c8a93443" />
 
 
 **⭐ If CodementorX helped you code better, please give us a star! It means the world to us! 🌟**
