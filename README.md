@@ -1,8 +1,8 @@
 # 🤖 CodementorX-AI Coding Mentor
 
 ## 🖼️ Screenshots
-<img width="1363" height="596" alt="Screenshot_2025-08-04_191357 1" src="https://github.com/user-attachments/assets/9a0349f9-6ee9-40d2-9c88-311c9041b4e9" />
 <img width="1354" height="569" alt="Screenshot 2025-08-05 133632" src="https://github.com/user-attachments/assets/86acbb05-7f87-4d81-935c-e73ec52c4f92" />
+<img width="1363" height="596" alt="Screenshot_2025-08-04_191357 1" src="https://github.com/user-attachments/assets/9a0349f9-6ee9-40d2-9c88-311c9041b4e9" />
 <img width="1359" height="596" alt="Screenshot_2025-08-04_191510 1" src="https://github.com/user-attachments/assets/3122ae42-3939-4b6d-941e-29a1080301bb" />
 
 ## 🎯 Project Overview
